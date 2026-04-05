@@ -1,0 +1,25 @@
+node_modules/
+dist/
+
+# Environment
+.env
+!.env.example
+
+# SQLite database files
+backend/data/*.db
+backend/data/*.db-wal
+backend/data/*.db-shm
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build/cache
+*.tsbuildinfo
+.vite/
